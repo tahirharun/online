@@ -1,32 +1,73 @@
 <!DOCTYPE html>
-<html>
-       <title>about restaurant</title>
+<html lang="en">
 <head>
- <style>
-    .where{
-        font-family: Arial;
-        font-size: 15px;
-        color:green;
-    }
-    body {
-        background-color: rgb(124, 252, 0);
-    }
- </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Pizzawt</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 style="color: blue;">about restaurant</h1>
-    <div class="where">
-        we have affordable prices
+ <header class="px-6 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">Mode-cafe</div>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#" class="text-blue-600 underline">Home</a>
+      <a href="menu.html" class="hover:underline">Menu</a>
+      <a href="conct.html" class="hover:underline">contact</a>
+      <a href="about us.html" class="hover:underline">About</a>
+       <a href="#" class="hover:underline">reserves</a>
+    </nav>
+  </header>
+<body class="bg-black text-white font-sans">
+  <section class="px-10 py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">About <span class="text-yellow-400">Mode-cafe</span></h2>
+      <p class="text-gray-400">
+        Mode-cafe is more than just a cafe place — it's a celebration of flavors, family, and freshness. Our mission is to bring you the most authentic and innovative food experience in town
+      </p>
     </div>
-    <p>
-        we come out 1995
-    </p>
-    <br>
-    <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.8906254935596!2d36.77944397358523!3d-1.2971008356351381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f115e5adcb8b5%3A0xbbca0957966650fa!2sMode%20Cafe!5e1!3m2!1sen!2ske!4v1751766024280!5m2!1sen!2ske" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </p>
-    <br>
-    <a href="mode.html">view menu if missed</a>
-    <br> <br>
-    <a href="contacts.html">contacts</a>
+  </section>
+  <section class="px-10 py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 text-center md:text-left">
+      <div>
+        <h3 class="text-3xl font-bold mb-4 text-yellow-400">Our Mission</h3>
+        <p class="text-gray-300">
+          To serve delicious, affordable, and freshly made food using only high-quality ingredients and to create a welcoming place where people come together.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold mb-4 text-yellow-400">Our Vision</h3>
+        <p class="text-gray-300">
+          To become the go to resturant destination globally, known for our creative recipes, exceptional service, and commitment to community and sustainability.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="px-10 py-20">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Meet the <span class="text-yellow-400">Team</span></h2>
+      <p class="text-gray-400">
+        Our dedicated team makes the magic happen — from the kitchen to your table.
+      </p>
+    </div>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-28 h-28 rounded-full mx-auto mb-4" />
+        <h4 class="text-xl font-semibold">Chef Oliver</h4>
+        <p class="text-gray-400">Head Chef</p>
+      </div>
+      <!-- Team Member 2 -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-28 h-28 rounded-full mx-auto mb-4" />
+        <h4 class="text-xl font-semibold">Amelia</h4>
+        <p class="text-gray-400">Marketing Lead</p>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" class="w-28 h-28 rounded-full mx-auto mb-4" />
+        <h4 class="text-xl font-semibold">John Lee</h4>
+        <p class="text-gray-400">CEO</p>
+      </div>
+    </div>
+  </section>
+
+</body>
 </html>
