@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+   <script src="https://cdn.tailwindcss.com"></script>
 </head>
- <header class="px-6 py-4 flex justify-between items-center">
+<header class="px-6 py-4 flex justify-between items-center">
     <div class="text-2xl font-bold">Mode-cafe</div>
     <nav class="space-x-6 hidden md:flex">
-      <a href="index.html" class="hover:underline">Home</a>
+      <a href="#" class="text-blue-600 underline">Home</a>
       <a href="menu.html" class="hover:underline">Menu</a>
-      <a href="#" class="text-blue-600 underline">contact</a>
+      <a href="conct.html" class="hover:underline">contact</a>
       <a href="about us.html" class="hover:underline">About</a>
-        <a href="#" class="hover:underline">reserves</a>
+       <a href="#" class="hover:underline">reserves</a>
     </nav>
   </header>
 <body>
 <section class="bg-black text-white px-10 py-20">
   <div class="max-w-4xl mx-auto text-center">
     <h2 class="text-4xl font-bold mb-6">
-      Get In Touch
+      Get In Touch <span class="text-yellow-400">.</span>
     </h2>
     <p class="text-gray-400 mb-12">
       We'd love to hear from you! Reach out for orders, feedback, or questions.
@@ -37,16 +37,21 @@
         placeholder="Email Address"
         class="p-4 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
       />
+      <input
+        type="text"
+        placeholder="Subject"
+        class="md:col-span-2 p-4 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
+      />
       <textarea
         rows="5"
-        placeholder="Your Feedback"
+        placeholder="Your Message"
         class="md:col-span-2 p-4 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
       ></textarea>
       <button
         type="submit"
         class="md:col-span-2 bg-yellow-400 text-black py-3 px-8 rounded-lg font-semibold hover:bg-yellow-500 transition duration-300"
       >
-        send us your Feedback 
+        Send Message →
       </button>
     </form>
   </div>
